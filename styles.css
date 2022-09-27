@@ -1,0 +1,30 @@
+navbar{
+    position: top;
+
+}
+header
+{
+    position: fixed;
+    width: 100%;
+}
+
+@media (max-width: 650px){
+    #ul{
+        flex-direction: column;
+
+    }
+}
+header {
+    position: fixed;
+    top 0;
+    min-height: 15px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color; #ab8103
+    @media(max-width: 600px)
+    {
+        flex-wrap: wrap;
+    }
+}
